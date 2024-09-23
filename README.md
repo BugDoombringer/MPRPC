@@ -39,7 +39,7 @@ cd bin/
 test.conf为配置文件，根据自己服务器情况修改
 
 # 交互流程
-![alt text](image.png)
+![alt text](image-1.png)
 
 # 贡献
 如果你有兴趣贡献代码，欢迎提交 Pull Request，或通过 Issue 反馈建议与问题。
