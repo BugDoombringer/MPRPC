@@ -18,24 +18,24 @@
 4. 使用ZooKeeper作为服务治理中间件，提供服务注册和服务发现功能。
 
 # 开发环境
-操作系统：Ubuntu 20.04
-依赖库：Muduo、Protobuf、ZooKeeper、CMake
+1. 操作系统：Ubuntu 20.04
+2. 依赖库：Muduo、Protobuf、ZooKeeper、CMake
 
 # 构建项目
-1. 克隆代码仓库
-git clone git@github.com:BugDoombringer/MPRPC.git
+1. 克隆代码仓库  
+git clone git@github.com:BugDoombringer/MPRPC.git  
 cd MPRPC
-2. 安装依赖库
+2. 安装依赖库  
 确保系统已安装依赖库
 3. 编译项目
 ./autobuild.sh
 
 # 运行案例
-1. 服务提供方
-cd bin/
+1. 服务提供方  
+cd bin/  
 ./provider -i test.conf
-2. 服务调用方
-./consumer -i test.conf
+2. 服务调用方  
+./consumer -i test.conf  
 test.conf为配置文件，根据自己服务器情况修改
 
 # 贡献
