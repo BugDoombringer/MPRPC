@@ -27,7 +27,7 @@ git clone git@github.com:BugDoombringer/MPRPC.git
 cd MPRPC
 2. 安装依赖库  
 确保系统已安装依赖库
-3. 编译项目
+3. 编译项目  
 ./autobuild.sh
 
 # 运行案例
